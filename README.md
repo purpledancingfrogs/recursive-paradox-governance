@@ -1,25 +1,24 @@
-# Recursive Paradox Governance
+﻿# Recursive Paradox Governance
 
-Deterministic engine for governing conserved contradictions across recursive scales.
+Deterministic governance engine that treats paradox as a conserved quantity across scales.
 
-## Core Principle
-Paradox is a conserved quantity. Systems evolve by sustaining contradiction, not resolving it.
+This repository formalizes **paradox-preservation → paradox-conservation → recursive governance** as a first-class architectural principle.
 
-## Layers
-- Micro: Quantum measurement contradictions
-- Meso: Decision firewalls and ambiguity
-- Macro: Planetary coherence fields
-- Meta: ASI recursive evolution
+## Core Idea
+Contradictions are not resolved.
+They are **tracked, conserved, and propagated** as invariant drivers of adaptive intelligence.
 
-## Modules
-- paradox_conservation_engine/
-- higher_dimensional_horizons/
-- conserved_contradiction_metrics/
-- recursive_evolution_demo/
-- integrations/
+## Scales
+- Quantum: measurement contradiction primitives
+- Decision: firewalled ambiguity and horizon effects
+- Planetary: coherence fields and systemic risk
+- ASI: recursive evolution via paradox gradients
 
-## Invariants
-Extends ?�t�S with paradox density, persistence, and gradient flow.
+## Structure
+- paradox_conservation_engine/ — core invariant tracker
+- higher_dimensional_horizons/ — recursive boundary geometry
+- conserved_contradiction_metrics/ — paradox κ–τ–Σ extensions
+- recursive_evolution_demo/ — runnable scaffolds
+- integrations/ — links to QMCK, decision-decomposition, ASIOS
 
-## Status
-Scaffold initialized.
+This repository governs **through paradox**, not despite it.
