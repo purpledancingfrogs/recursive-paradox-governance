@@ -1,0 +1,5 @@
+﻿[project]
+name = 'recursive-paradox-governance'
+version = '0.3.0'
+description = 'Paradox-conserving governance engine'
+requires-python = '>=3.9'
