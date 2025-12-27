@@ -1,0 +1,10 @@
+﻿name: Feature Proposal
+description: Add capability without resolving paradox
+labels: [proposal]
+body:
+  - type: textarea
+    attributes:
+      label: Proposal
+  - type: textarea
+    attributes:
+      label: Invariant Impact

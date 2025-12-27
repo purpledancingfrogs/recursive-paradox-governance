@@ -1,0 +1,12 @@
+﻿name: Invariant Violation
+description: Report paradox collapse or invariant breach
+labels: [invariant]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: What invariant was violated?
+  - type: textarea
+    attributes:
+      label: Evidence
+      description: Logs, traces, repro steps
