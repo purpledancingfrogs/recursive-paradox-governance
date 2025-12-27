@@ -22,3 +22,9 @@ They are **tracked, conserved, and propagated** as invariant drivers of adaptive
 - integrations/ — links to QMCK, decision-decomposition, ASIOS
 
 This repository governs **through paradox**, not despite it.
+## Status
+
+This repository defines a **formal specification and reference architecture**.
+
+Executable engines and simulations are forthcoming.
+Current contents establish invariants, interfaces, and governance principles.
