@@ -5,7 +5,8 @@ from planetary_field_engine.coupling import couple
 engine = ParadoxEngine()
 state = ParadoxState(coherence=1.0, paradox_density=0.5)
 
+state = engine.step(state)
 state = multi_horizon(state, depth=3)
 state = couple(state, field_strength=0.9)
 
-print(state)
+print(state.coherence, state.paradox_density)
