@@ -1,5 +1,8 @@
-﻿from paradox_conservation_engine.engine_stub import ParadoxState
-from conserved_contradiction_metrics.metrics_stub import paradox_density
+﻿from paradox_conservation_engine.engine import ParadoxEngine, ParadoxState
+from conserved_contradiction_metrics.metrics import Pi
 
-state = ParadoxState(density=1.0, coherence=1.0)
-print('Paradox density:', paradox_density(state))
+engine = ParadoxEngine()
+state = ParadoxState(density=1.0, coherence=0.4)
+for _ in range(5):
+    state = engine.step(state)
+    print('Π:', Pi(state))
