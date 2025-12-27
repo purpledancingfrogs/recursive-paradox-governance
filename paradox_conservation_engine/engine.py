@@ -1,11 +1,15 @@
-﻿class ParadoxState:
-    def __init__(self, coherence, paradox_density):
+class ParadoxState:
+    def __init__(self, density: float = 1.0, coherence: float = 0.5):
+        self.density = density
         self.coherence = coherence
-        self.paradox_density = paradox_density
-
+        self.paradox_density = coherence
 
 class ParadoxEngine:
-    def step(self, state):
-        # Paradox is conserved, not resolved
-        state.paradox_density *= 1.0
-        return state
+    def __init__(self):
+        pass
+
+    def step(self, state: ParadoxState) -> ParadoxState:
+        return ParadoxState(
+            density=state.density,
+            coherence=state.coherence
+        )
