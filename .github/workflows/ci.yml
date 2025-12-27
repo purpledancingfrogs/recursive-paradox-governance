@@ -10,4 +10,5 @@ jobs:
           python-version: '3.x'
       - run: python -m compileall .
       - run: python tests/test_properties.py
-      - run: python recursive_evolution_demo/run_demo.py
+      - run: python tests/fuzz_properties.py
+      - run: echo '{\"density\":1.0,\"coherence\":0.5}' | python recursive_evolution_demo/cli.py
