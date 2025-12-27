@@ -3,10 +3,9 @@ from higher_dimensional_horizons.multi import multi_horizon
 from planetary_field_engine.coupling import couple
 
 engine = ParadoxEngine()
-state = ParadoxState(1.0, 0.5)
+state = ParadoxState(coherence=1.0, paradox_density=0.5)
 
-state = engine.step(state)
-state = multi_horizon(state, depth=4)
-state = couple(state, field_strength=0.95)
+state = multi_horizon(state, depth=3)
+state = couple(state, field_strength=0.9)
 
 print(state)
